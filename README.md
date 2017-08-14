@@ -41,7 +41,7 @@ directory.
 
 | Vagrant Cloud Name              | Version   | Vagrant Provider |
 |---------------------------------|-----------|------------------|
-| plus3it/spel-minimal-centos-6.9 | 2017.07.1 | virtualbox       |
+| rbdunne/spel-minimal-centos-6.9 | 2017.07.1 | virtualbox       |
 
 ## Prerequisites
 
@@ -86,7 +86,7 @@ use `.\` preceding the path to the template. E.g.
 1.  Clone the repository:
 
     ```bash
-    git clone https://github.com/plus3it/spel && cd spel
+    git clone https://github.com/rbdunne/spel && cd spel
     ```
 
 2.  Validate the template (Optional):
@@ -141,16 +141,16 @@ defaults):
     "vagrantcloud_username": "",
     "vagrantcloud_token": "{{env `VAGRANTCLOUD_TOKEN`}}",
     "aws_region": "us-east-1",
-    "spel_amigen6source": "https://github.com/ferricoxide/AMIgen6.git",
+    "spel_amigen6source": "https://github.com/rbdunne/AMIgen6.git",
     "spel_amigen7source": "https://github.com/lorengordon/AMIgen7.git",
-    "spel_amiutilsource": "https://github.com/ferricoxide/Lx-GetAMI-Utils.git",
+    "spel_amiutilsource": "https://github.com/rbdunne/Lx-GetAMI-Utils.git",
     "spel_awsclisource": "https://s3.amazonaws.com/aws-cli",
     "spel_customreporpm6": "",
     "spel_customreporpm7": "",
     "spel_customreponame6": "",
     "spel_customreponame7": "",
     "spel_disablefips": "",
-    "spel_desc_url": "https://github.com/plus3it/spel",
+    "spel_desc_url": "https://github.com/rbdunne/spel",
     "spel_epel6release": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm",
     "spel_epel7release": "https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
     "spel_epelrepo": "epel",
@@ -251,8 +251,8 @@ vagrant "cloud".
 [5]: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-environment
 [6]: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html
 [7]: https://www.packer.io/docs/builders/amazon.html
-[8]: https://github.com/ferricoxide/AMIgen6
-[9]: https://github.com/ferricoxide/Lx-GetAMI-Utils
+[8]: https://github.com/rbdunne/AMIgen6
+[9]: https://github.com/rbdunne/Lx-GetAMI-Utils
 [10]: https://fedoraproject.org/wiki/EPEL
 [11]: https://www.packer.io/docs/builders/amazon-ebs.html
 [12]: https://www.virtualbox.org/wiki/Downloads
