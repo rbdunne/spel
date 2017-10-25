@@ -13,35 +13,35 @@ directory.
 
 | AMI Name                                         | AMI ID       | AWS Region    |
 |--------------------------------------------------|--------------|---------------|
-| spel-minimal-rhel-7.3-hvm-2017.07.1.x86_64-gp2   | ami-28b5b23e | us-east-1     |
-| spel-minimal-rhel-6.9-hvm-2017.07.1.x86_64-gp2   | ami-f9b0b7ef | us-east-1     |
-| spel-minimal-centos-7.3-hvm-2017.07.1.x86_64-gp2 | ami-f0b0b7e6 | us-east-1     |
-| spel-minimal-centos-6.9-pvm-2017.07.1.x86_64-gp2 | ami-a74345b1 | us-east-1     |
-| spel-minimal-centos-6.9-hvm-2017.07.1.x86_64-gp2 | ami-93b1b685 | us-east-1     |
-| spel-minimal-rhel-7.3-hvm-2017.07.1.x86_64-gp2   | ami-cff5d4aa | us-east-2     |
-| spel-minimal-rhel-6.9-hvm-2017.07.1.x86_64-gp2   | ami-ecf6d789 | us-east-2     |
-| spel-minimal-centos-7.3-hvm-2017.07.1.x86_64-gp2 | ami-e0f7d685 | us-east-2     |
-| spel-minimal-centos-6.9-pvm-2017.07.1.x86_64-gp2 | ami-0ef7d66b | us-east-2     |
-| spel-minimal-centos-6.9-hvm-2017.07.1.x86_64-gp2 | ami-5df5d438 | us-east-2     |
-| spel-minimal-rhel-7.3-hvm-2017.07.1.x86_64-gp2   | ami-79d3fc19 | us-west-1     |
-| spel-minimal-rhel-6.9-hvm-2017.07.1.x86_64-gp2   | ami-a6d2fdc6 | us-west-1     |
-| spel-minimal-centos-7.3-hvm-2017.07.1.x86_64-gp2 | ami-bbd1fedb | us-west-1     |
-| spel-minimal-centos-6.9-pvm-2017.07.1.x86_64-gp2 | ami-13d1fe73 | us-west-1     |
-| spel-minimal-centos-6.9-hvm-2017.07.1.x86_64-gp2 | ami-06d3fc66 | us-west-1     |
-| spel-minimal-rhel-7.3-hvm-2017.07.1.x86_64-gp2   | ami-a37765da | us-west-2     |
-| spel-minimal-rhel-6.9-hvm-2017.07.1.x86_64-gp2   | ami-71766408 | us-west-2     |
-| spel-minimal-centos-7.3-hvm-2017.07.1.x86_64-gp2 | ami-7a776503 | us-west-2     |
-| spel-minimal-centos-6.9-pvm-2017.07.1.x86_64-gp2 | ami-b27a68cb | us-west-2     |
-| spel-minimal-centos-6.9-hvm-2017.07.1.x86_64-gp2 | ami-1677656f | us-west-2     |
-| spel-minimal-rhel-7.3-hvm-2017.07.1.x86_64-gp2   | ami-09c84968 | us-gov-west-1 |
-| spel-minimal-rhel-6.9-hvm-2017.07.1.x86_64-gp2   | ami-08c84969 | us-gov-west-1 |
-| spel-minimal-centos-7.3-hvm-2017.07.1.x86_64-gp2 | ami-9ac445fb | us-gov-west-1 |
-| spel-minimal-centos-6.9-pvm-2017.07.1.x86_64-gp2 | ami-5bc4453a | us-gov-west-1 |
-| spel-minimal-centos-6.9-hvm-2017.07.1.x86_64-gp2 | ami-f2c44593 | us-gov-west-1 |
+| spel-minimal-rhel-7.4-hvm-2017.10.1.x86_64-gp2   | ami-13c90669 | us-east-1     |
+| spel-minimal-rhel-6.9-hvm-2017.10.1.x86_64-gp2   | ami-e7cd029d | us-east-1     |
+| spel-minimal-centos-7.4-hvm-2017.10.1.x86_64-gp2 | ami-ddcb04a7 | us-east-1     |
+| spel-minimal-centos-6.9-pvm-2017.10.1.x86_64-gp2 | ami-daca05a0 | us-east-1     |
+| spel-minimal-centos-6.9-hvm-2017.10.1.x86_64-gp2 | ami-d5cb04af | us-east-1     |
+| spel-minimal-rhel-7.4-hvm-2017.10.1.x86_64-gp2   | ami-489fb22d | us-east-2     |
+| spel-minimal-rhel-6.9-hvm-2017.10.1.x86_64-gp2   | ami-d482afb1 | us-east-2     |
+| spel-minimal-centos-7.4-hvm-2017.10.1.x86_64-gp2 | ami-d682afb3 | us-east-2     |
+| spel-minimal-centos-6.9-pvm-2017.10.1.x86_64-gp2 | ami-4f9cb12a | us-east-2     |
+| spel-minimal-centos-6.9-hvm-2017.10.1.x86_64-gp2 | ami-c69cb1a3 | us-east-2     |
+| spel-minimal-rhel-7.4-hvm-2017.10.1.x86_64-gp2   | ami-e59ead85 | us-west-1     |
+| spel-minimal-rhel-6.9-hvm-2017.10.1.x86_64-gp2   | ami-ab9ba8cb | us-west-1     |
+| spel-minimal-centos-7.4-hvm-2017.10.1.x86_64-gp2 | ami-6098ab00 | us-west-1     |
+| spel-minimal-centos-6.9-pvm-2017.10.1.x86_64-gp2 | ami-6698ab06 | us-west-1     |
+| spel-minimal-centos-6.9-hvm-2017.10.1.x86_64-gp2 | ami-c098aba0 | us-west-1     |
+| spel-minimal-rhel-7.4-hvm-2017.10.1.x86_64-gp2   | ami-ab23e4d3 | us-west-2     |
+| spel-minimal-rhel-6.9-hvm-2017.10.1.x86_64-gp2   | ami-8d2deaf5 | us-west-2     |
+| spel-minimal-centos-7.4-hvm-2017.10.1.x86_64-gp2 | ami-e82ee990 | us-west-2     |
+| spel-minimal-centos-6.9-pvm-2017.10.1.x86_64-gp2 | ami-2328ef5b | us-west-2     |
+| spel-minimal-centos-6.9-hvm-2017.10.1.x86_64-gp2 | ami-9e2aede6 | us-west-2     |
+| spel-minimal-rhel-7.4-hvm-2017.10.1.x86_64-gp2   | ami-f8028099 | us-gov-west-1 |
+| spel-minimal-rhel-6.9-hvm-2017.10.1.x86_64-gp2   | ami-42068423 | us-gov-west-1 |
+| spel-minimal-centos-7.4-hvm-2017.10.1.x86_64-gp2 | ami-950381f4 | us-gov-west-1 |
+| spel-minimal-centos-6.9-pvm-2017.10.1.x86_64-gp2 | ami-6b07850a | us-gov-west-1 |
+| spel-minimal-centos-6.9-hvm-2017.10.1.x86_64-gp2 | ami-b60280d7 | us-gov-west-1 |
 
 | Vagrant Cloud Name              | Version   | Vagrant Provider |
 |---------------------------------|-----------|------------------|
-| rbdunne/spel-minimal-centos-6.9 | 2017.07.1 | virtualbox       |
+| rbdunne/spel-minimal-centos-6.9 | 2017.10.1 | virtualbox       |
 
 ## Prerequisites
 
@@ -203,7 +203,7 @@ The Minimal Linux `packer` template includes the following builders:
 | `minimal-centos-6.9-hvm`        | amazon-ebs builder that results in a minimal CentOS 6.9 HVM AMI |
 | `minimal-centos-6.9-pvm`        | amazon-ebs builder that results in a minimal CentOS 6.9 PVM AMI |
 | `minimal-rhel-6.9-hvm`          | amazon-ebs builder that results in a minimal RHEL 6.9 HVM AMI   |
-| `minimal-centos-7.3-hvm`        | amazon-ebs builder that results in a minimal CentOS 7.3 HVM AMI |
+| `minimal-centos-7.4-hvm`        | amazon-ebs builder that results in a minimal CentOS 7.4 HVM AMI |
 | `minimal-rhel-7.4-hvm`          | amazon-ebs builder that results in a minimal RHEL 7.4 HVM AMI   |
 | `minimal-centos-6.9-virtualbox` | virtualbox-iso builder that results in a minimal CentOS 6.9 OVA |
 | `minimal-centos-6.9-vmware`     | vmware-iso builder that results in a minimal CentOS 6.9 OVF     |

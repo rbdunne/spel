@@ -7,7 +7,7 @@ env:
     PACKER_NO_COLOR: '1'
     CHECKPOINT_DISABLE: '1'
     SPEL_CI: 'false'
-    SPEL_BUILDERS: minimal-rhel-7.4-hvm,minimal-centos-7.3-hvm,minimal-rhel-6.9-hvm,minimal-centos-6.9-hvm,minimal-centos-6.9-pvm
+    SPEL_BUILDERS: minimal-rhel-7.4-hvm,minimal-centos-7.4-hvm,minimal-rhel-6.9-hvm,minimal-centos-6.9-hvm,minimal-centos-6.9-pvm
     SPEL_DESC_URL: https://github.com/rbdunne/spel
     SPEL_AMIGEN6SOURCE: https://github.com/rbdunne/AMIgen6.git
     SPEL_AMIGEN7SOURCE: https://github.com/rbdunne/AMIgen7.git
@@ -39,8 +39,10 @@ phases:
           SPEL_VERSION=$(date +%Y.%m.dev%s)
           export SPEL_VERSION
         fi
-      - test -z "$SPEL_IDENTIFIER" && (echo "Must set SPEL_IDENTIFIER env!" >&2; exit 1)
-      - test -z "$SPEL_VERSION" && (echo "Must set SPEL_VERSION env!" >&2; exit 1)
+      - echo "SPEL_IDENTIFIER=${SPEL_IDENTIFIER}"
+      - echo "SPEL_VERSION=${SPEL_VERSION}"
+      - test -n "$SPEL_IDENTIFIER" || (echo "Must set SPEL_IDENTIFIER env!"; exit 1)
+      - test -n "$SPEL_VERSION" || (echo "Must set SPEL_VERSION env!"; exit 1)
       - |
         if [ -n "${SPEL_SSM_ACCESS_KEY}" ]
         then
