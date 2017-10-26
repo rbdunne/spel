@@ -4,8 +4,8 @@
 # task.
 #
 ##############################################################################
-AMIGENSOURCE="${SPEL_AMIGENSOURCE:-https://github.com/ferricoxide/AMIgen6.git}"
-AMIUTILSSOURCE="${SPEL_AMIUTILSSOURCE:-https://github.com/ferricoxide/Lx-GetAMI-Utils.git}"
+AMIGENSOURCE="${SPEL_AMIGENSOURCE:-https://github.com/rbdunne/AMIgen6.git}"
+AMIUTILSSOURCE="${SPEL_AMIUTILSSOURCE:-https://github.com/rbdunne/Lx-GetAMI-Utils.git}"
 AWSCLISOURCE="${SPEL_AWSCLISOURCE:-https://s3.amazonaws.com/aws-cli}"
 BOOTLABEL="${SPEL_BOOTLABEL:-/boot}"
 BUILDDEPS="${SPEL_BUILDDEPS:-lvm2 parted yum-utils unzip git}"
